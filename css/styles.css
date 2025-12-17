@@ -1,55 +1,31 @@
-/* ===== GLOBAL ===== */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
 }
 
 ul {
   list-style: none;
-  padding-left: 0;
   margin: 0;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
-}
-
-/* ===== CONTAINER ===== */
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* ===== HEADER ===== */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -65,177 +41,34 @@ button {
   margin-right: 76px;
 }
 
-.logo-accent {
+.logo-studio {
   color: #2e2f42;
 }
 
-.menu {
+.nav-list {
   display: flex;
   gap: 40px;
 }
 
-.menu-link {
+.nav-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
-  display: block;
 }
 
-.contacts {
-  font-style: normal;
+.address {
   margin-left: auto;
+  font-style: normal;
 }
 
-.contacts-list {
+.address-list {
   display: flex;
   gap: 40px;
 }
 
-.contacts-link {
+.address-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-/* ===== HERO ===== */
-.hero {
-  background-color: #2e2f42;
-  padding: 188px 0;
-}
-
-.hero-title {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 48px;
-}
-
-.hero-btn {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
-  min-width: 169px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ===== ADVANTAGES ===== */
-.advantages {
-  padding: 120px 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.advantages-list {
-  display: flex;
-  gap: 24px;
-}
-
-.advantages-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.advantages-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.advantages-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* ===== TEAM ===== */
-.team {
-  background-color: #f4f4fd;
-  padding: 120px 0;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
-
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
-.team-item {
-  background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
-}
-
-.team-card {
-  padding: 32px 0;
-  text-align: center;
-}
-
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.team-position {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* ===== FOOTER ===== */
-.footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-logo-accent {
-  color: #f4f4fd;
-}
-
-.footer-text {
-  max-width: 264px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
