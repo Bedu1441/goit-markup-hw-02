@@ -159,3 +159,41 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ===== TEAM ===== */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+/* заголовок секції (навіть якщо visually-hidden) */
+.team .visually-hidden {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* картки */
+.team-item {
+  background-color: #ffffff;
+}
+
+/* імʼя */
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* позиція */
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
