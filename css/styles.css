@@ -138,3 +138,8 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* ✅ fix for footer logo "Studio" */
+.footer .logo-studio {
+  color: #f4f4fd;
+}
