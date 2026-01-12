@@ -1,0 +1,24 @@
+[33m063a66f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m complete team section styles
+[33m29129c8[m fix team section structure and styles
+[33m5593a6f[m fix advantages hidden title
+[33m63cb205[m add advantages styles
+[33me9a432f[m fix advantages section structure
+[33m7d60dc9[m fix hero section structure
+[33m31c8284[m add hero styles
+[33m766cbc1[m add header styles
+[33m5aa6e2a[m add html classes structure for hw02
+[33m7cf1411[m reset styles css to base only
+[33me819978[m add empty styles css and link it
+[33m2b485bf[m reset index html base for hw02
+[33m7f4c78a[m Delete images directory
+[33mfd38526[m trigger pages rebuild
+[33m2d71451[m Add portfolio section and styles
+[33m934c8ba[m sync header html with existing css classes
+[33m1ac6cf7[m add hover focus colors for header links
+[33m6ee120c[m fix header according to goit hw02 requirements
+[33m124ba7f[m fix header structure for hw02 tests
+[33md14a108[m add team images
+[33m93ef434[m remove system and archive files
+[33mc8a7441[m remove unused images for hw02
+[33mb198ea3[m add full styles for hw02
+[33mc0880e6[m Add layout and styles for HW-02
