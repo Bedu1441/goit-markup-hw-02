@@ -81,6 +81,15 @@ body {
 
 /* ================= ADVANTAGES ================= */
 
+.advantages-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -96,21 +105,19 @@ body {
   color: #434455;
 }
 
-/* ================= SECTION TITLES (ВАЖЛИВО!) ================= */
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 /* ================= TEAM ================= */
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-item {
